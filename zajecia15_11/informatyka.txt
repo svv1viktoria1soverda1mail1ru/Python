@@ -1,0 +1,7 @@
+python
+java
+asembler
+algorytm
+klasa
+metoda
+zmienna
