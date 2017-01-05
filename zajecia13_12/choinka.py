@@ -1,0 +1,41 @@
+from Tkinter import *
+root = Tk()
+root.title("Choinka")
+canvas = Canvas(root, width=500, height=800, bg='white')
+canvas.pack(expand=YES, fill=BOTH)
+canvas.create_polygon(100, 300, 250, 100, 400, 300, fill="green")
+canvas.create_polygon(75, 375, 250, 150, 425, 375, fill="green")
+canvas.create_polygon(50, 450, 250, 200, 450, 450, fill="green")
+canvas.create_polygon(25, 525, 250, 250, 475, 525, fill="green")
+canvas.create_polygon(0, 600, 250, 300, 500, 600, fill="green")
+canvas.create_rectangle(230, 600, 290, 650, fill='brown')
+
+canvas.create_oval(200, 200, 230, 230, fill='red')
+canvas.create_oval(270, 210, 300, 240, fill='red')
+canvas.create_oval(310, 320, 340, 350, fill='red')
+canvas.create_oval(200, 320, 230, 350, fill='red')
+
+canvas.create_oval(100, 440, 130, 470, fill='blue')
+canvas.create_oval(50, 540, 80, 570, fill='yellow')
+canvas.create_oval(250, 250, 280, 280, fill='blue')
+canvas.create_oval(250, 140, 280, 170, fill='blue')
+canvas.create_oval(310, 440, 340, 470, fill='yellow')
+canvas.create_oval(370, 470, 400, 500, fill='blue')
+
+canvas.create_oval(250, 440, 280, 470, fill='blue')
+canvas.create_oval(170, 560, 200, 590, fill='blue')
+canvas.create_oval(170, 270, 200, 300, fill='yellow')
+canvas.create_oval(180, 380, 210, 410, fill='blue')
+canvas.create_oval(170, 450, 200, 480, fill='yellow')
+canvas.create_oval(340, 550, 370, 580, fill='yellow')
+
+canvas.create_oval(220, 380, 250, 410, fill='red')
+canvas.create_oval(120, 370, 150, 400, fill='red')
+canvas.create_oval(350, 370, 380, 400, fill='red')
+canvas.create_oval(100, 500, 130, 530, fill='red')
+canvas.create_oval(200, 510, 230, 540, fill='red')
+canvas.create_oval(300, 490, 330, 520, fill='red')
+
+canvas.create_polygon(210,80,240,80,250,50,260,80,290,80,265,100,275,130,250,110,225,130,235,100, fill='yellow')
+
+root.mainloop()
